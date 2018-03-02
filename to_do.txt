@@ -1,0 +1,12 @@
+Things done:
+	create a function that gets similar log loss to kaggle.
+	create a function that gets the difference of the average season stats of each team in the tournament bracket
+	create a logistic regression / rf model just based on seed
+Things to do:
+	Create a function that gets seed for each team to add to features
+	Create a function that gets predictions for every possible matchup in preparation for submission
+	Add prior tournament year results to the features
+	Add conference information to the data
+	Add coaches information to the data
+	Figure out how to incorporate game logs to the data
+		
