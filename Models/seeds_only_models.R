@@ -2,10 +2,10 @@
 
 #Data
 library(readr)
-seeds = read_csv("Data/NCAATourneySeeds.csv")
+seeds = read_csv("data files/DataFiles/NCAATourneySeeds.csv")
 seeds$Seed = as.numeric(substr(seeds$Seed,2,3))
-sample_submission = read_csv("Data/SampleSubmissionStage1.csv")
-tourn_results = read_csv("Data/NCAATourneyCompactResults.csv")
+sample_submission = read_csv("data files/DataFiles/SampleSubmissionStage1.csv")
+tourn_results = read_csv("data files/DataFiles/NCAATourneyCompactResults.csv")
 
 #order by teamID
 team1 = numeric()
